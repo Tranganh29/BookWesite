@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookWeb</name>
+    </assembly>
+    <members>
+        <member name="M:BookWeb.Controllers.BookController.Get">
+            <summary>
+            Lấy tất cả Book
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:BookWeb.Controllers.BookController.Post(BookWeb.Models.Book)">
+            <summary>
+            Thêm mới Book
+            </summary>
+            <param name="Book"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BookWeb.Controllers.RoleController.Get">
+            <summary>
+            Lấy tất cả danh sách Roles
+            </summary>
+            <returns> List Roles</returns>
+        </member>
+        <member name="M:BookWeb.Controllers.RoleController.GetById(System.Int32)">
+            <summary>
+            Lấy Role bằng Id
+            </summary>
+            <returns> Get Role By Id</returns>
+        </member>
+        <member name="M:BookWeb.Controllers.RoleController.Post(BookWeb.Models.Role)">
+            <summary>
+            Thêm mới Role
+            </summary>
+            <returns>Role</returns>
+        </member>
+    </members>
+</doc>
